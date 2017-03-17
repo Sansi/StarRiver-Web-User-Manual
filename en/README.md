@@ -1,27 +1,27 @@
 # Introduction
 
-StarRiver Web control system is intended for control and management of luminaires and other devices. It is a portal integrates information of connected devices with which devices can be accessed remotely. 
+StarRiver Web control system is intended for control and management of luminaires and other devices. It is a portal integrating information of connected devices with which devices can be accessed remotely. 
 
-This document provides instructions on installation and configuration. Mandatory steps are denoted that you may not miss. Also there’s an [FAQ](part3/errors.md) at the end of the document, the first thing you may turn to if you run into any trouble with the system.
+This document provides instructions on installation and configuration. Mandatory steps are denoted that you may not miss. Also there is an [FAQ](part3/errors.md) at the end of the document, the first thing you may turn to if the system runs into any trouble.
 
 ## Outline
 
-The outline of the StarRvier Web control system is listed as follows:
+The outline of the StarRiver Web control system is listed as follows:
 
 ### Control Module
 
 - Map view
-  All devices are shown on the map as icons after placing them respectively in the `Device` - `Map`. This page also allow you to click the device icon for its status, turn a lamp or a group of lamps up and down, and synchronize device with the computer where the StarRiver web page runs.
+  All devices are shown on the map as icons after placing them respectively in the `Device` - `Map`. This page also allows you to click the device icon for its status, turn a lamp or a group of lamps up and down, and synchronize device with the computer where the StarRiver web page runs.
 - Shortcut
-  Pick a scenrio and click `Apply` to apply the dimming strategy defined in it to the devices respectively. Scenarios on this page are listed by groups only if any has been defined and added into at least one group. 
+  Pick a scenario and click `Apply` to apply the dimming strategy defined in it to the devices respectively. Scenarios on this page are listed by groups only if any has been defined and added into at least one group. 
 - Controller 
-  Display status of all the controllers, including each of `Communications state`, `Device state`, and `Dimming mode`.
+  Display status of all the controllers, including `Communications state`, `Device state`, and `Dimming mode`.
 - Lamp
-  Display status of all the lamps, including each of `Communication state`, `Brightness`, `Input voltage`, etc.
+  Display status of all the lamps, including `Communication state`, `Brightness`, `Input voltage`, etc.
 - Charging pile
-  Display information for each charging piles, including each of `State`, `Duration of last charging`, `Volume of last charging`, etc.
+  Display information for each charging piles, including `State`, `Duration of last charging`, `Volume of last charging`, etc.
 - System Control
-  User could choose and apply working mode and emergency dimming policy to each controller.  There are two working modes: `remote` and `auto`. Devices in remote mode execute dimming commands from the server. Devices in auto mode work independently according to a preconfigured time schedule. Emergency dimming policies include: `Failure brightness` (set during device configuration), `Keep brightness` and `Mmergency dimming schedule`. The policy would be used when a device lost connection to the server.
+  User could choose and apply working mode and emergency dimming policy to each controller.  There are two working modes: `remote` and `auto`. Devices in remote mode execute dimming commands from the server. Devices in auto mode work independently according to a preconfigured time schedule. Emergency dimming policies include: `Failure brightness` (set during device configuration), `Keep brightness` and `Emergency dimming schedule`. The policy would be used when a device lost connection to the server.
 
 ### Configuration Module
 
@@ -29,27 +29,27 @@ The outline of the StarRvier Web control system is listed as follows:
   A schedule defines brightness values in each time periods, can be used to specify brightness for devices directly or schedule multiple devices in a scenario.
 
 - Auto-Brightness Schedule
-  A chart defines the denpendence curve of brightness and the sensor input, can be used to specify brightness for devices directly or schedule multiple devices in a scenario.
+  A chart defines the dependence curve of brightness and the sensor input, that can be used to specify brightness for devices directly or schedule multiple devices in a scenario.
 
 - Scene Configuration
-  A scenario defines brightnesss for each device manually or automatically depending by a time-brightness schedule or a auto-brightness schedule.
+  A scenario defines brightness for each device manually or automatically depending by a time-brightness schedule or a auto-brightness schedule.
 
 - Emergency Control
-  Contingency plan is defined to deal with an emergency or a contingency such as  a fogy day, that need two-hour more long lighting. So that its priority is higher than the scenario.
+  Contingency plan is defined to deal with a communication failure contingency and other emergencies. In a communication failure contingency, controllers will act according to the pre-configured emergency plan. So as the controllers under `auto` mode.  
 
 - Playlist
 
-  A playlist defines contents showing in the outdoor advertisingboard integrated in a intelligent roadmap.
+  A playlist defines contents showing in the outdoor advertising board integrated in an intelligent roadmap.
 
 ### Query Module
 
-- Query device failure record
-- Query device historical data (such as brightness, current, voltage, etc.)
-- Query user operating record
+- Query device failure record.
+- Query device historical data (such as brightness, current, voltage, etc.).
+- Query user operating record.
 
 ### User Management Module
 
-- User’s privilege management;　software needs login;　different user has different privilege
+- A login account is required.
 - Administrators could `add` or `delete` users and modify a user's privilege.
 
 ## Login
@@ -59,7 +59,7 @@ The outline of the StarRvier Web control system is listed as follows:
 
 ![Login](./part1/img/login.png 'Login')
 
-<p style="text-align: center">Picture 1-1 Login</p>
+
 
 ![Dashboard](./part1/img/dashboard.png 'Dashboard')
 

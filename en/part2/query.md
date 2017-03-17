@@ -41,7 +41,7 @@ To query the collected data from the sensors of the intelligent lamp, select `Qu
 To query the collected data from the sensors of the intelligent lamp: 
 
 1. Select `Query` - `Sensor` - `Current and Historical Data`. Select the target sensor to switch to the desired information.
-2. Click the `Current Data` to swich to the information dashboard from the target sensor.
+2. Click the `Current Data` to switch to the information dashboard from the target sensor.
 
 #### Human Flow
 

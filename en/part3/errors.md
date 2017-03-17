@@ -1,6 +1,6 @@
 # Common Errors
 
-1. Failure of aceessing to the database
+1. Failure of accessing to the database
 
    In the operation process of StarRiver Web, it needs to communicate with database at a fixed time period.
 

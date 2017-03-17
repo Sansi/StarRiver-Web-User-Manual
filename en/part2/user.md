@@ -20,7 +20,7 @@ To add a user:
 
 1. Click `User` to enter the account setting page.
 2. Click `+ Add User`.
-3. Give the user name and the password. The password need to be given twice to prevend any typo. And then choose a user type so that privilege is provided to limited number of users who actually need it.
+3. Give the user name and the password. The password need to be given twice to prevent any typo. And then choose a user type so that privilege is provided to limited number of users who actually need it.
 4. Click `Submit` to save the change.
 
   <div style="text-align:center">  ![](img/user_add.png)
@@ -33,7 +33,7 @@ The following table specifies the three user types.
 | --------- | ---------------------------------------- |
 | `admin`   | A user with all privileges, is recommended to assign it to a administrator of the system |
 | `user`    | A user with configuration right but is not allowed to make any account settings, is recommended to assign it to a operator of the system. |
-| `guset`   | A user can browse without making any change to the system, is recommended to assign it to a data/information agent. |
+| `guest`   | A user can browse without making any change to the system, is recommended to assign it to a data/information agent. |
 
 ### Change User Type
 

@@ -39,7 +39,7 @@ Run `StarRiver_setup.exe` to install the StarRiver system.  Choose to install al
 
 Do update the configuration file following the instructions below so that the system would be able to access by http protocol.
 
-For example: to access SartRiver by http://172.16.40.70 using a browser.​	
+For example: to access SarRiver by http://172.16.40.70 using a browser.	
 
 1. Add your IP address to the `Origins` list in the `CORS` section of the file below.
    `$(install_path)\starriver-service\global.json`

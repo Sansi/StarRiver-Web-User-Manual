@@ -1,7 +1,7 @@
 # Outline
 
 * [History Revision](history.md)
-* [Dislaimer](disclaimer.md)
+* [Disclaimer](disclaimer.md)
 * [About this Document](about.md)
 
 ## [Overview](README.md)
@@ -22,4 +22,4 @@
 ## Part III. Misc.
 
 * [Notification](part3/notify.md)
-* [Common Erros](part3/errors.md)
+* [Common Errors](part3/errors.md)

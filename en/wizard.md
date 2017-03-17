@@ -2,9 +2,9 @@
 
 This section is recommended for someone who is going to do the configuration and use the system for the first time. 
 
-As an example, the following instruction will provide major procedure though in the actual world, things may be a little different. Refer to the [FAQ](/part3/errors.md) for problems may have. If it stunks and can't get any answers in the section above, contact the local retailer for tenical supports.
+As an example, the following instruction will provide major procedure though in the actual world, things may be a little different. Refer to the [FAQ](/part3/errors.md) for problems may have. If there is nothing help in the section above, contact the local retailer for technical supports.
 
-John is the administrator of the StarRiver system, who wants to acheive the following goals with *4* lamps in the *King street*. 
+John is the administrator of the StarRiver system, who wants to achieve the following goals with *4* lamps in the *King street*. 
 
 | Lamp | Controller | 1st quarter | 1st quarter | 2nd quarter | 2nd quarter |
 | ---- | ---------- | ----------- | ----------- | ----------- | ----------- |
@@ -27,18 +27,18 @@ First of all, we need to add the 4 lamps and their controllers into the StarRive
 
 Controllers communicate to the lamps directly that we need to add controllers before lamps.
 
-1.  Select `Devices` - `Contrller` to get to the controller management page.
+1.  Select `Devices` - `Controller` to get to the controller management page.
 
-2.  Click `+ Add controllers`.
+2. Click `+ Add controllers`.
 
-3.  Fill in the table in the poping-up box and click `submit` to save the change.
-    * Device address: the MAC adress of the controller, you may find it in the documents comming with the controller.
+3. Fill in the table in the popping-up box and click `submit` to save the change.
+    * Device address: the MAC address of the controller, you may find it in the documents coming with the controller.
     * IP address: make sure the IP address of the controller is not blocked from the server.
     * Port: *3434* is recommended. but if the port number has been occupied, try get another available one.
 
-4.  Repeat Step 2 and Step 3 to add controller B.
+4. Repeat Step 2 and Step 3 to add controller B.
 
-5.  Make sure the information listed in the controller page is correct, click ![](img/Edit.png) to update information.
+5. Make sure the information listed in the controller page is correct, click ![](img/Edit.png) to update information.
 
          Go to the next step if everything is ok.
 
@@ -48,8 +48,8 @@ Add lamps after controllers have been added.
 
 1. Select `Devices` - `Lamp` to get to the lamp management page.
 2. Click `+ Add lamp`.
-3. Fill in the table in the poping-up box and click `submit` to save the change.
-   - Device address: the MAC adress of the lamp, you may find it in the documents comming with the device.
+3. Fill in the table in the popping-up box and click `submit` to save the change.
+   - Device address: the MAC address of the lamp, you may find it in the documents coming with the device.
    - Controller, according to the information given in the example, Lamp A is subordinated to Controller A.
 4. Repeat Step 2 and Step 3 to add controller B.
 5. Make sure the information listed in the controller page is correct, click ![](img/Edit.png) to update information.
@@ -65,7 +65,7 @@ A lamp group is necessary for a contingency plan, and makes group dimming possib
 4. Add *Group 2*.
 5. Add *Lamp D* into *Group 2*.
 
->**Note**: Group information on the web page may not be up to date due to the network latency after the procedure. Do not take actions repeatly. Wait for a moment and refresh the web page to see the changes.
+>**Note**: Group information on the web page may not be up to date due to the network latency after the procedure. Do not take actions repeatedly. Wait for a moment and refresh the web page to see the changes.
 >
 ### Notify the Server and Controllers
 
@@ -81,13 +81,13 @@ Now, we have finished adding devices and can go to the next step, scheduling ill
 
 ## Schedule Illumination Plan
 
-In this section, we will schedule illumination plan according to the given demands. Time-brigthtness schedule and scenario tools will be used for it. Also, a contingency plan would be created as a backup for the schedule. 
+In this section, we will schedule illumination plan according to the given demands. Time-brightness schedule and scenario tools will be used for it. Also, a contingency plan would be created as a backup for the schedule. 
 
-Besides, a contingency plan is very useful for controllers that are offline in most of the time. Controllers run in `Auto` mode with the contingency plan instead of a regular scenario but acheiving the same goal.
+Besides, a contingency plan is very useful for controllers that are offline in most of the time. Controllers run in `Auto` mode with the contingency plan instead of a regular scenario but achieving the same goal.
 
 ### Add a Time-Brightness Schedule
 
-Select `Config` - `Time-Brightness Schedule`, and add 2 shedules as follows:
+Select `Config` - `Time-Brightness Schedule`, and add 2 schedules as follows:
 
 1. The first schedule, with brightness of  100 when on.
 
@@ -148,12 +148,12 @@ As all the schedules have been set up, we could carry out the plan.
 
    > **Note**: Under the `Remote` mode, the scenario can be applied. (which will be introduced in the next step.) While   in the `Auto` mode, the controller will execute the contingency plan pushed in the previous step.
 
-3. Choose a contingency stratege.
-   Check the *Contingency stratege* and give *30* (minutes) in the trigger time box, and click `Apply` to save the change. So that, when a commnunication failure has been detected and does not recover in 30 mininutes, the controller will execute the contingency plan designated in Step 1.
+3. Choose a contingency strategy.
+   Check the *Contingency strategy* and give *30* (minutes) in the trigger time box, and click `Apply` to save the change. So that, when a communication failure has been detected and does not recover in 30 minutes, the controller will execute the contingency plan designated in Step 1.
 
 4. Select `Control` - `Shortcut`, and choose the target scenario before clicking `Apply`.
 
-In the case of a offline-controller system, contingency plan can act as a regular plan. Follow the instructions below:
+In the case of an offline-controller system, contingency plan can act as a regular plan. Follow the instructions below:
 1. Select `Control` - `System Control`, to designate a contingency plan for each controller.
 
 2. Make sure each controller is working under the `Auto` mode. If not, click to switch to `Auto` and click `Apply` to save the change.
